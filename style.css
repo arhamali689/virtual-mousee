@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .profile-card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-card:hover{
+    scale: 1.2;
+    transition: all .5s;
+  }
+  
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #ffd700;
+  }
+  
+  .profile-card h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .profile-card h2 {
+    font-size: 18px;
+    color: #888;
+    margin: 5px 0;
+  }
+  
+  .profile-card p {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px 0;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .message-button {
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .message-button:hover {
+    background-color: #e5c200;
+  }
+  
